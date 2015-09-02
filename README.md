@@ -1,7 +1,7 @@
 # Error Component - Mendo Framework
 
 This component catches the exceptions and errors that weren't handled.
-It allows you to log errors and to add an error handler that will further handle the error.
+It allows you to log errors and to add a custom error handler.
 
 ```php
 (new Mendo\Error\ErrorCatcher())
